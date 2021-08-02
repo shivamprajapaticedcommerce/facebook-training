@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#app-body{
+  width: 100%;
+  margin:0px;
+  display:flex;
+  justify-content: space-between;
+  /* background-color:red; */
+  
+}
+
+#app-body #app-content{
+  width:85%;
+}
+
+
+
+.app-content
+{
+  margin: 50px auto auto auto;
+  width: 90%;
+  padding: 20px;
+  
+}
+
+.app-content:hover{
+  border: 1px solid rgb(1, 1, 190);
+  border-radius: 5px;
+}
+
+#footer{
+  height: 50px;
+  width: 100%;
+  margin: 20px auto auto auto;
+}
